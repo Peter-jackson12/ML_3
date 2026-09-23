@@ -1,0 +1,42 @@
+# Data (too large for GitHub)
+data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+
+# Python / env
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets / local
+.env
+.env.*
+*.pem
+credentials.*
+
+# Streamlit / caches
+.streamlit/secrets.toml
